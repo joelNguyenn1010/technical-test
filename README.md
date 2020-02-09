@@ -33,3 +33,7 @@ DB_PASSWORD=
 ```
 php artisan db:seed
 ```
+# Relationship and database
+![Role One to Many User](relationship.png)
+- Pretty straightforward relationship between User and Role, From the technical test picture, 
+it looks like each user only has one role.

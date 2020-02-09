@@ -17,6 +17,7 @@ class UserController extends Controller
      */
     public function index()
     {
+//        including user role details
         return response()->json(Users::with('roles')->get());
     }
 
