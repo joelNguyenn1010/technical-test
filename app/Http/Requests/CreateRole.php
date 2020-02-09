@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-
+// Request for creating new role
 class CreateRole extends FormRequest
 {
 

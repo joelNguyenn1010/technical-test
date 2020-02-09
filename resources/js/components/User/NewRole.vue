@@ -1,11 +1,12 @@
+<!--the component for creating new rp;e-->
 <template>
-
     <div>
         <button class="button is-info"
                 @click="open = true">
             Create Role
         </button>
 
+<!--        modal form      -->
         <b-modal :active.sync="open">
             <form @submit.prevent="submit">
                 <div class="modal-card" style="width: auto">
@@ -95,7 +96,3 @@
         }
     }
 </script>
-
-<style scoped>
-
-</style>

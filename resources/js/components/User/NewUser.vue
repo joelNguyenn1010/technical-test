@@ -86,6 +86,7 @@
                     //reset the input
                     this.name = '';
                     this.email = '';
+                    this.role_id = null;
                     //the success message
                     this.$buefy.snackbar.open({
                         message: 'New user created',
@@ -94,7 +95,7 @@
                     });
 
 
-                //    execute the event to re fetch users
+                //    execute the event to re-fetch users
                     eventBus.$emit(REFECTHUSER, res)
                 })
                 .catch((err) => {
@@ -121,6 +122,17 @@
                                 })
                             })
                         }
+
+                        if(error.role_id) {
+                            //display all the error relate to role
+                            err.response.data.errors.role_id.map(err => {
+                                this.$buefy.snackbar.open({
+                                    message: err,
+                                    type: 'is-danger',
+                                    position: 'is-top',
+                                })
+                            })
+                        }
                     }
                 })
             },
@@ -128,7 +140,3 @@
         }
     }
 </script>
-
-<style scoped>
-
-</style>

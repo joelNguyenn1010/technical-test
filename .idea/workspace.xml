@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b6b96cc-dbbc-4c97-9772-e9d9372ea5a0" name="Default Changelist" comment="" />
+    <list default="true" id="5b6b96cc-dbbc-4c97-9772-e9d9372ea5a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateRole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRole.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRole.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/User/NewRole.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/User/NewRole.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/User/NewUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/User/NewUser.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/User/UpdateUserRole.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/User/UpdateUserRole.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/User/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/User/User.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +32,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -121,6 +136,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -147,6 +163,7 @@
       <updated>1581077755069</updated>
       <workItem from="1581077758567" duration="7924000" />
       <workItem from="1581140632626" duration="23670000" />
+      <workItem from="1581227930394" duration="1715000" />
     </task>
     <servers />
   </component>

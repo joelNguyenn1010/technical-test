@@ -36,7 +36,7 @@ class UserController extends Controller
     }
 
     /**
-     * Updating the existing role
+     * Updating the user role
      *
      * @param UpdateUserRole $request
      * @return JsonResponse

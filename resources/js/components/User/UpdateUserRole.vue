@@ -1,3 +1,4 @@
+<!--Responsible for updating user role-->
 <template>
     <div>
         <button class="button is-info"

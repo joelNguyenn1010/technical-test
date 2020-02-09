@@ -3,7 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-
+//request for creating new user
 class CreateUser extends FormRequest
 {
 

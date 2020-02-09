@@ -4,10 +4,6 @@
         <td>{{name}}</td>
         <td>{{email}}</td>
 
-<!--        <td><user-role-->
-<!--            :default_role="role"-->
-<!--            :user_id="id"-->
-<!--        ></user-role></td>-->
         <button class="btn btn-primary" @click="toggle">{{role}}</button>
         <user-role v-if="newRole"></user-role>
 
